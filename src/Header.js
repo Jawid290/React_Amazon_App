@@ -12,7 +12,7 @@ function Header() {
   console.log(basket);
   return (
     <nav className="header">
-      <Link to="/Header">
+      <Link to="/">
         <img
           className="header__logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
@@ -44,7 +44,7 @@ function Header() {
           </div>
         </Link>
 
-        <Link to="/cheackout" className="header__link">
+        <Link to="/checkout" className="header__link">
           <div className="header__optionBashet">
             <ShoppingCartIcon />
 
@@ -54,10 +54,10 @@ function Header() {
           </div>
         </Link>
       </div>
-      <img
+      {/* <img
         src="https://www.google.com/imgres?q=car%20advertisement&imgurl=https%3A%2F%2Fmir-s3-cdn-cf.behance.net%2Fproject_modules%2Fhd_webp%2F40e9cd77967627.5c979a697c97b.png&imgrefurl=https%3A%2F%2Fwww.behance.net%2Fgallery%2F77967627%2FPeugeot-car-Creative-Ads%3Flocale%3Dcs_CZ&docid=tgfGJnnNDL4EUM&tbnid=Kh_07c9G8abhEM&vet=12ahUKEwjvpZzp3aaTAxVZhP0HHWCBI48QnPAOegQIHhAB..i&w=1200&h=800&hcb=2&ved=2ahUKEwjvpZzp3aaTAxVZhP0HHWCBI48QnPAOegQIHhAB"
         alt=""
-      />
+      /> */}
     </nav>
   );
 }
