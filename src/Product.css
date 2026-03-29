@@ -35,3 +35,8 @@
   border: 1px solid;
   border-color: #abb734 #9c7e31 #846a29;
 }
+.product > button:hover {
+  background-color: #9fe054;
+  border: 1.8px dotted;
+  border-color: #ec1010 #c44716 #c44716;
+}
